@@ -2,10 +2,54 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>My First Site</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Acturis Academy Certificate</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      background-color: #f0f0f0;
+      font-family: 'Georgia', serif; 
+    }
+    .certificate-container {
+      position: relative;
+      display: inline-block;
+      width: 100%;
+      max-width: 1200px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+    .certificate-container img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+    .cert-text {
+      position: absolute;
+      color: #0f1c2d; /* Matches the dark blue of the certificate text */
+    }
+    #cert-name {
+      top: 47%; /* Adjust these percentages to perfectly align with the line */
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 2.8vw; 
+      text-align: center;
+      width: 60%;
+    }
+    #cert-date {
+      top: 76.5%; 
+      left: 31%; 
+      transform: translateX(-50%);
+      font-size: 1.5vw;
+    }
+  </style>
 </head>
 <body>
-  <h1>Hello, World!</h1>
-  <p>This is my first live website on GitHub Pages.</p>
+
+  <div class="certificate-container">
+    <img src="ContactFundamentals_Certificate.jpg" alt="Acturis Certificate of Completion">
+    <div id="cert-name" class="cert-text"></div>
+    <div id="cert-date" class="cert-text"></div>
+  </div>
+
 </body>
 </html>
