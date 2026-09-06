@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Standard Meta Tags -->
+  <title>My Custom 3D Voxel Engine</title>
+  <meta name="description" content="A development blog and showcase for my local 3D voxel game engine built in Java using LWJGL and custom OpenGL fragment shaders.">
+
+  <!-- Open Graph / LinkedIn Preview Tags -->
+  <meta property="og:title" content="My Custom 3D Voxel Engine">
+  <meta property="og:description" content="A development blog and showcase for my local 3D voxel game engine built in Java using LWJGL and custom OpenGL fragment shaders.">
+  
+  <!-- The image URL MUST be absolute (starting with https://) -->
+  <meta property="og:image" content="https://YOUR-USERNAME.github.io/YOUR-REPO-NAME/preview-image.jpg">
+  <meta property="og:url" content="https://YOUR-USERNAME.github.io/YOUR-REPO-NAME/">
+  <meta property="og:type" content="website">
+
+</head>
+<body>
+  <h1>Java Voxel Engine Project</h1>
+  <p>Welcome to the development log.</p>
+</body>
+</html>
