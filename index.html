@@ -43,6 +43,20 @@
     }
   </style>
 </head>
+  <script>
+    // Extract parameters from the URL
+    const urlParams = new URLSearchParams(window.location.search);
+    const studentName = urlParams.get('name');
+    const completionDate = urlParams.get('date');
+    
+    // Populate the HTML elements if the parameters exist
+    if (studentName) {
+      document.getElementById('cert-name').textContent = studentName;
+    }
+    if (completionDate) {
+      document.getElementById('cert-date').textContent = completionDate;
+    }
+  </script>
 <body>
 
   <div class="certificate-container">
